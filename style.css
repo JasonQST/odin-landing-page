@@ -1,0 +1,27 @@
+.header{
+    display: flex ;
+}
+
+.header div{
+    flex: 1;
+}
+
+.headerLogo{
+    color: #F9FAF8;
+    font-weight: bold;
+    size: 24px;
+    margin-left: 20%;
+}
+
+.headerLinks{
+    display: flex;
+    margin-right: 0%;
+}
+
+.headerLinks a{
+    gap: 5px;
+}
+
+body{
+    background-color: #1f2937;
+}
