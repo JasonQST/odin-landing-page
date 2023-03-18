@@ -1,3 +1,5 @@
+/*Header Style*/
+
 .header{
     display: flex;
     margin: 0 0;
@@ -26,9 +28,15 @@
 }
 
 .headerLinks a{
+    color: #F9FAF8;
+    font-weight: lighter;
+    font-style:normal;
+    text-decoration: none;
     margin: 0 10px;
     width: max-content;
 }
+
+/*Session 1 Style*/
 
 .Session1{
     background-color: #1f2937;
@@ -51,8 +59,23 @@
     flex: 1;
 }
 
-.Session1Left{
+.Session1Left h1{
+    color: #F9FAF8;
+    margin-top: 0;
+}
 
+.Session1FlexBox a{
+    color: #F9FAF8;
+}
+
+.Session1Left button{
+    background-color: #3882f6;
+    color: white;
+    margin-top: 10px;
+    border: #E5E7EB solid 3px;
+    border-radius: 5%;
+    width: 100px;
+    height: 30px;
 }
 
 .Session1Right{
@@ -63,6 +86,144 @@
     max-width: 100%;
     max-height: 100%;
 }
+
+/*Session 2 Style*/
+.Session2{
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.Session2 h1{
+    size:36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.Gallery{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Gallery div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Gallery a{
+    text-align: center;
+}
+
+.Gallery img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 5%;
+    justify-content: center;
+}
+
+.Gallery a{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
+
+/*Session3 Style*/
+.Session3{
+    background-color: #E5E7EB;
+    border-color: #1f2937;
+    overflow:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+} 
+
+.quote a{
+    size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.Thor{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 5%;
+    margin-right: 35%;
+}
+
+.Thor a{
+    margin-top: 5px;
+    font-weight: bold;
+    text-align: end;
+}
+
+/*Session 4 Style*/
+.Session4{
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 3%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.Session4Left{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    flex: 3;
+}
+
+.Sesssion4Right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sesssion4Right button{
+    background-color: #3882f6;
+    color: white;
+    margin-top: 10px;
+    border: #E5E7EB solid 3px;
+    border-radius: 5%;
+    width: 100px;
+    height: 30px;
+    margin-right: 50px;
+}
+
+/*Footer Style*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    margin-top: 50px;
+}
+
+.footer a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #E5E7EB;
+}
+
+/*Body Style*/
 
 body{
     margin: 0;
